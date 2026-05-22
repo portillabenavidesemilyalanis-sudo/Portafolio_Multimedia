@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emily Alanis - Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Emily Alanis</div>
+    
+    <input type="checkbox" id="menu-check" class="menu-check">
+    
+    <label for="menu-check" class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <div class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#quienes-somos">Sobre mí</a>
+      <a href="#servicios">Enfoque</a>
+      <a href="#trabajos">Proyectos</a>
+      <a href="#proceso">Beneficios</a>
+      <a href="#cta-final" class="nav-links-cta-mobile">Contacto</a>
+    </div>
+
+    <div class="nav-cta">
+      <a href="#cta-final" class="btn-nav">Contacto</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="tag hero-tag">Diseño Multimedia</span>
+      <h1>Emily Alanis <br><span class="accent">Diseño Visual y Contenido Digital</span></h1>
+      <p class="hero-subtitle">Descubre cómo las ideas complejas se convierten en piezas de contenido claras, creativas, de alto impacto y efectivas.</p>
+      <div class="hero-buttons">
+        <a href="#trabajos" class="btn-primary">Ver proyectos</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="quienes-somos" id="quienes-somos">
+    <div class="quienes-content">
+      <span class="tag">El Desafío</span>
+      <h2>¿Necesitas contenido visual <span class="accent">que realmente comunique?</span></h2>
+      <p class="quienes-highlight">No todo diseño o video logra transmitir lo que buscas. En un mundo saturado de estímulos, la estética sin estrategia es invisible.</p>
+      
+      <div class="storytelling-resolution">
+        <p>Ahí es donde entro yo. Como **Diseñadora Multimedia y Productora Audiovisual**, ayudo a marcas y profesionales a romper el ruido de fondo. No creo piezas solo para que se vean bien; diseño con un propósito narrativo y técnico estructurado para que tu mensaje impacte directamente en tu audiencia ideal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="servicios" id="servicios">
+    <span class="tag servicios-tag">Mi Enfoque</span>
+    <h2>Soluciones visuales claras, funcionales y atractivas</h2>
+    <p class="section-subtitle">Mi metodología combina la dirección artística con la precisión técnica para lograr resultados reales.</p>
+    
+    <div class="servicios-grid">
+      <article class="servicio-card">
+        <div class="servicio-icon">◈</div>
+        <h3>Creatividad Estratégica</h3>
+        <p>Soluciones visuales innovadoras conceptualizadas desde cero para capturar y retener la atención.</p>
+      </article>
+      <article class="servicio-card">
+        <div class="servicio-icon">◉</div>
+        <h3>Dominio Técnico</h3>
+        <p>Uso avanzado de herramientas profesionales de la industria y metodologías de producción ágiles.</p>
+      </article>
+      <article class="servicio-card">
+        <div class="servicio-icon">◎</div>
+        <h3>Narrativa Transmedia</h3>
+        <p>Construcción de historias visuales coherentes a través de cualquier plataforma o formato digital.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="trabajos" id="trabajos">
+    <span class="tag trabajos-tag">Portafolio</span>
+    <h2>Proyectos Destacados <span class="accent">Casos de Éxito</span></h2>
+    
+    <div class="trabajos-grid">
+      <div class="trabajo-item" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('img/fondo.webp'); background-position: center;">
+        <span class="trabajo-label">Campaña Visual Corporativa</span>
+      </div>
+      <div class="trabajo-item" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('img/fondo.webp'); background-position: top;">
+        <span class="trabajo-label">Documental Empresarial</span>
+      </div>
+      <div class="trabajo-item" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('img/fondo.webp'); background-position: bottom;">
+        <span class="trabajo-label">Identidad de Marca</span>
+      </div>
+      <div class="trabajo-item" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('img/fondo.webp'); background-position: center;">
+        <span class="trabajo-label">Video Promocional</span>
+      </div>
+    </div>
+    <button class="trabajos-cta">Ver Todos los Proyectos</button>
+  </section>
+
+  <section class="proceso" id="proceso">
+    <span class="tag proceso-tag">El Retorno</span>
+    <h2>¿Qué ganas al trabajar conmigo? <span class="accent">Resultados con intención.</span></h2>
+    
+    <div class="proceso-steps">
+      <div class="step">
+        <span class="step-number">01</span>
+        <h3>Impacto Visual Inmediato</h3>
+        <p>Captas la atención de tu cliente potencial desde el primer segundo de interacción.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">02</span>
+        <h3>Producción Integral sin Estrés</h3>
+        <p>Me encargo de todo el flujo de trabajo: desde la conceptualización de la idea hasta el desarrollo final.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">03</span>
+        <h3>Estructura y Coherencia</h3>
+        <p>Piezas pulidas y listas para ser publicadas directamente en tus canales de marketing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-final" id="cta-final">
+    <span class="tag cta-final-tag">Contacto</span>
+    <h2>Convierte tu idea en una pieza visual <span class="accent">bien ejecutada.</span></h2>
+    <span class="cta-line"></span>
+    
+    <div class="cta-container">
+      <a href="mailto:portillabenavidesemilyalanis@gmail.com" class="cta-final-cta">Iniciar Proyecto</a>
+      <div class="contact-info">
+        <p class="contact-email">portillabenavidesemilyalanis@gmail.com</p>
+        <p class="contact-phone">+593 98 700 9933</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Emily Alanis</div>
+        <p class="footer-desc">Diseñadora visual especializada en contenido digital creativo, estratégico y efectivo.</p>
+      </div>
+      <div class="footer-info">
+        <h4>Multimedia & Audiovisual</h4>
+        <div class="footer-social">
+          <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+          <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+          <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-copyright">© 2026 Emily Alanis. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

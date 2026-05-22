@@ -1,0 +1,31 @@
+:root {
+  /* ── COLORS ── */
+  --color-bg-main: #0B0B0B; /* Un negro más profundo y moderno */
+  --color-bg-alt: #161616; /* Fondo para secciones alternas */
+  --color-bg-surface: #222222; /* Fondo para tarjetas */
+  --color-text-primary: #FFFFFF; 
+  --color-text-secondary: rgba(255, 255, 255, 0.75); 
+  --color-accent: #A3382C; /* Ajustado ligeramente para mejorar el contraste y legibilidad */
+  --color-accent-rgb: 163, 56, 44; /* Versión RGB para efectos de transparencias */
+  --color-bg-footer: #0B0B0B; 
+
+  /* ── TYPOGRAPHY ── */
+  --font-title: 'Bebas Neue', sans-serif; 
+  --font-body: 'Poppins', sans-serif; 
+  --font-weight-title: 400; 
+  --font-weight-body: 400; 
+
+  /* ── SPACING (Escala armónica) ── */
+  --spacing-xs: 8px; 
+  --spacing-sm: 16px; 
+  --spacing-md: 24px; 
+  --spacing-lg: 40px; 
+  --spacing-xl: 64px; 
+  --spacing-xxl: 100px; 
+  --spacing-xxxl: 160px; 
+
+  /* ── TRANSITIONS & EFFECTS ── */
+  --transition-fast: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --border-radius: 8px; /* Bordes suavizados modernos */
+}
